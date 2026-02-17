@@ -50,8 +50,9 @@ dot.onclick=()=>{
 equal.onclick=()=>{
     let value=Number(num.innerHTML);
     let result=value/1.95583;
-    num.innerHTML=result.toFixed(2);
+    num.innerHTML=result.toFixed(2) + " " + "Euro";
 }
 clear.onclick=()=>{
     num.innerHTML="";
 }
+
